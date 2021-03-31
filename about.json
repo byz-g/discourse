@@ -1,5 +1,5 @@
 {
-    "name": "Dracula Theme",
+    "name": "ElasticDAO Theme",
     "about_url": "",
     "liscense_url": "",
     "assets": {
@@ -17,16 +17,16 @@
     },
     "color_schemes": {
       "Dracula": {
-        "primary": "f2f2f2",
-        "secondary": "282a36",
-        "tertiary": "bd93f9",
-        "quaternary": "8be9fd",
-        "header_background": "ffffff",
-        "header_primary": "14151f",
-        "highlight": "f1fa8c",
-        "danger": "ff5555",
-        "success": "50fa7b",
-        "love": "ff79c6"
+          "primary": "f2f2f2",
+          "secondary": "2b2f5b",
+          "tertiary": "bd93f9",
+          "quaternary": "8be9fd",
+          "header_background": "232750",
+          "header_primary": "14151f",
+          "highlight": "f1fa8c",
+          "danger": "ff5555",
+          "success": "50fa7b",
+          "love": "ff79c6"
       }
   }
 }
