@@ -19,6 +19,7 @@
       "Dracula": {
           "primary": "f2f2f2",
           "primary-low": "232750",
+          "primary-very-low": "272b57",
           "secondary": "2b2f5b",
           "tertiary": "bd93f9",
           "quaternary": "8be9fd",
