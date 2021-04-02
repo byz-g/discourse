@@ -167,6 +167,11 @@ tbody {
   font-weight: 400;
 }
 
+// category -latest background color update
+.latest-topic-list-item, categories-only-category {
+  background-color: #383d6a;
+}
+  
 // not visited topics
 tr:not(.visited) .link-top-line .title {
   color: $primary;
