@@ -168,9 +168,27 @@ tbody {
 }
 
 // category -latest background color update
- .categories, .latest, .latest-topic-list-item, .categories-only-category {
+.latest {
   background-color: #383d6a;
 }
+
+.latest-topic-list-item {
+  background-color: #383d6a;
+}
+
+.categories-only-category {
+  background-color: #383d6a;
+}
+
+.categories {
+  background-color: #383d6a;
+}
+
+.category-list td {
+  background-color: #383d6a;
+}
+
+// category -latest background color update end
 
 // not visited topics
 tr:not(.visited) .link-top-line .title {
