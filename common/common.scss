@@ -207,6 +207,17 @@ td .link-bottom-line .badge-category {
   font-weight: 400;
 }
 
+//test
+@media screen and (min-width: 1110px) {
+  .navigation-topics,
+  .categories-list,
+  .tags-page,
+  body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) { 
+    .wrap {
+        max-width: 1400px;
+    }
+}
+
 // Navigation Pills
 .nav-pills:not(#global-sidebar-nav) > li > a {
   color: $primary;
