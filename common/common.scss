@@ -1,4 +1,80 @@
 @import "fonts";
+
+@keyframes background-fade-highlight {
+  0% {
+    background-color: $love#{30}; //new color!
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+a {
+  color: $quaternary;
+}
+
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  &.text-size-smaller {
+    font-size: 16px;
+  }
+  &.text-size-larger {
+    font-size: 18px;
+  }
+  &.text-size-largest {
+    font-size: 20px;
+  }
+}
+
+tbody {
+  border-top: 3px solid #5F69EF;
+  tr.topic-list-item {
+    border-bottom: 1px solid #232750;
+    background-color: #383d6a;
+  }
+}
+
+.alert.alert-info {
+  background-color: $secondary-high#{50};
+  border: 1px solid $love#{50};
+  a {
+    color: $quaternary;
+    font-family: 'Source Code Pro';
+    font-size: 13px;
+    &:hover {
+      color: $quaternary#{90};
+    }
+  }
+}
+
+.topic-list td {
+  color: $primary;
+}
+
+// Header
+.d-header {
+  background-color: $secondary;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
+  height: 75px;
+}
+
+// Menu Panel Links
+.panel-body-contents {
+  a {
+    color: $primary;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    &:hover {
+      color: $tertiary;
+      text-decoration-color: $tertiary;
+    }
+  }
+  .badge-wrapper.bullet span.badge-category {
+    color: $primary;
+    font-weight: 400;
+  }
+}
 // Only applying to main topic lists over 768px wide @media screen and (min-width: 768px) {
      .navigation-topics, .categories-list, .tags-page, body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
          #main-outlet {
