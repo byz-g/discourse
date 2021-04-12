@@ -1,3 +1,8 @@
+
+
+
+
+
 @import "fonts";
 
 @keyframes background-fade-highlight {
@@ -117,6 +122,21 @@ tbody {
 .quick-access-panel:hover {
   .d-icon {
     color: $primary !important;
+  }
+}
+
+// Desktop styles for "user-stream-item" component
+.user-stream {
+  .time,
+  .delete-info,
+  .draft-type {
+    margin-right: 8px;
+  }
+
+  .notification {
+    &.unread {
+      background-color: #343864;
+    }
   }
 }
 
